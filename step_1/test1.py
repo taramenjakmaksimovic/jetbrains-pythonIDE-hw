@@ -29,9 +29,9 @@ class Test1(unittest.TestCase):
         def test_groupby_count(self):
             data_csv = load_data(self.csv_file)
             count_data=filter_and_group(data_csv)
-            self.assertIn('platform', count_data.columns, 'Expected column platform.')
-            self.assertIn('genre', count_data.columns, 'Expected column genre.')
-            self.assertIn('count', count_data.columns, 'Expected colunmn count.')
+            self.assertIn('platform', count_data.columns, 'Expected column: platform.')
+            self.assertIn('genre', count_data.columns, 'Expected column: genre.')
+            self.assertIn('count', count_data.columns, 'Expected colunmn: count.')
 
              
 
