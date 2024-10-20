@@ -14,8 +14,8 @@ The order parameter refers to the arrangement of categorical variables on the ax
 The hue parameter allows you to add a third dimension to your plot by differentiating data within the same category using color. To add hue to your plot, use `sb.name_of_the_plot(hue='column_name')`, which specifies the column in your data used to group the data by different colors. You can also specify the hue order with`sb.name_of_the_plot(hue_order='custom_hue_order')`.
  
 # Task 🤓
-Create a simple bar plot that shows the number of games per 4 specific gaming platforms (PS4, XOne, PC and WiiU) by game genre. <br>
-Use the code from the previous step. X label should be named 'platform', y label should be named 'count'. The order of the platforms should be: PS4, XOne, PC an WiiU. The order of the genres should be: Action, Adventure, Fighting, Misc, Platform, Puzzle, Racing, Role-Playing, Shooter, Simulation, Sports, Strategy. <br>
+Using the code from the previous step: <br>
+Create a simple bar plot that shows the number of games per 4 specific gaming platforms: PS4, XOne, PC and WiiU by game genre. <br> X label should be named 'platform', y label should be named 'count'. The order of the platforms should be: PS4, XOne, PC and WiiU. The order of the genres should be: Action, Adventure, Fighting, Misc, Platform, Puzzle, Racing, Role-Playing, Shooter, Simulation, Sports and Strategy. <br>
 
 > **Note**
 > If you don't include `plt.show()` you won't see your plot. Plt is a matplotlib alias.
